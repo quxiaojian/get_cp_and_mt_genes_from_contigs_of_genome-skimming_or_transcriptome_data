@@ -1,6 +1,6 @@
-# get_Plastome_from_Transcriptome<br />
+# get_cp_and_mt_genes_from_contigs_of_genome-skimming_or_transcriptome_data<br />
 
-1. extract blast hits from trinity contigs<br />
+1. extract blast hits from spades or trinity contigs<br />
 ```
 perl batch_extract.pl -i 60 -a 100 -s 1 -c cycads -d hit -f batch_extract_cycads.sh
 perl extract_blast_hits_from_trinity_contigs.pl -r reference/cycads -t trinity/cycads -s 60 -l 60 -e 1e-25 -n 2 -o hit_cycads/hit60
